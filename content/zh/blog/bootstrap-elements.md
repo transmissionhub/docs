@@ -168,8 +168,6 @@ echo "goodbye"
 
 Use the `docs` shortcode to display the content of a `js`, `scss` or `toml` file:
 
-{{< docs name="theme-colors" file="config/_default/params.toml" >}}
-
 ## Icon
 
 As an example, the following shortcodes show a square check, a brand logo, and a circle check.
