@@ -1,3 +1,13 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://transmissionhub.github.io/docs'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Transmission Hub'
+theme = m10c
+
+[params]
+  author = "Jonathan"
+  description = "A blog about how to use advanced features of Transmission Hub"
+
+  [[params.faq]]
+    icon = "telegram"
+    name = "Telegram"
+    url = "https://t.me/+-IWqdRMKbEJmZjUx"
