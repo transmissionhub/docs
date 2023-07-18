@@ -1,0 +1,160 @@
+# Content
+- id: about
+  translation: "关于"
+- id: postedOnDate
+  translation: "发布于{{ . }}"
+- id: lastModified
+  translation: "最后修改于{{ . }}"
+- id: translationsLabel
+  translation: "其他语言："
+- id: translationsSeparator
+  translation: "，"
+- id: more
+  translation: "更多{{ . }}"
+- id: readMore
+  translation: "阅读更多"
+- id: moreBlog
+  translation: "更多文章"
+- id: olderBlog
+  translation: "较旧的文章"
+- id: recentBlog
+  translation: "最近的文章"
+- id: newerBlog
+  translation: "较新的文章"
+- id: previousBlog
+  translation: "上一篇文章"
+- id: nextBlog
+  translation: "下一篇文章"
+- id: recentProjects
+  translation: "项目"
+- id: moreFeatures
+  translation: "更多功能"
+- id: moreGuides
+  translation: "更多指南"
+- id: moreOpensource
+  translation: "更多功能"
+- id: moreProjects
+  translation: "更多项目"
+- id: moreUsers
+  translation: "更多用户"
+- id: read
+  translation: "阅读"
+- id: minutesShort
+  translation: "分钟"
+- id: words
+  translation: "字"
+- id: copyright
+  translation: "版权"
+- id: photoBy
+  translation: "照片来源："
+- id: photoOn
+  translation: "于"
+- id: article
+  translation: "文章"
+- id: articles
+  translation: "文章"
+- id: paginationNav
+  translation: "页面导航"
+- id: paginationPrevious
+  translation: "上一页"
+- id: paginationNext
+  translation: "下一页"
+- id: paginationFirst
+  translation: "第一页"
+- id: paginationLast
+  translation: "最后一页"
+- id: toggleSidebar
+  translation: "切换侧边栏导航"
+- id: colorMode
+  translation: "切换主题"
+- id: colorLight
+  translation: "亮色"
+- id: colorDark
+  translation: "暗色"
+- id: colorAuto
+  translation: "自动"
+- id: toggleMainNav
+  translation: "切换主导航"
+- id: demo
+  translation: "演示"
+- id: addedFeature
+  translation: "添加于"
+- id: deprecatedFeature
+  translation: "在{{ . }}中弃用"
+- id: shareLink
+  translation: "通过{{ . }}分享"
+- id: copiedToClipboard
+  translation: "已复制到剪贴板"
+- id: link
+  translation: "链接"
+- id: code
+  translation: "代码"
+- id: latest
+  translation: "最新"
+- id: allVersions
+  translation: "所有版本"
+- id: newerVersionAlert
+  translation: "有{{ . }}的新版本！"
+
+# 404 page
+- id: pageNotFound
+  translation: "您所查找的页面不存在或出现其他错误。请返回我们的"
+- id: pageNotFoundTitle
+  translation: "找不到页面"
+- id: pageNotFoundHome
+  translation: "首页"
+
+# Navigation
+- id: toggleNavigation
+  translation: "切换导航"
+- id: languageSwitcherLabel
+  translation: "语言"
+- id: gcseLabelShort
+  translation: "搜索"
+- id: gcseLabelLong
+  translation: "搜索{{ .Site.Title }}"
+- id: gcseClose
+  translation: "关闭"
+- id: home
+  translation: "首页"
+
+# Staticman
+- id: noComment
+  translation: "暂无评论"
+- id: oneComment
+  translation: "评论"
+- id: moreComment
+  translation: "评论"
+- id: useMarkdown
+  translation: "您可以使用 Markdown 语法"
+- id: yourName
+  translation: "您的姓名"
+- id: yourEmail
+  translation: "您的电子邮件地址"
+- id: yourWebsite
+  translation: "您的网站"
+
+# Delayed Disqus
+- id: show
+  translation: "显示"
+- id: comments
+  translation: "评论"
+
+# Related posts
+- id: seeAlso
+  translation: "相关文章"
+
+# Table of contents
+- id: toc
+  translation: "本页内容"
+
+# Search
+- id: ui_search
+  translation: "在本站搜索..."
+- id: ui_no_results
+  translation: "没有结果"
+
+# Draft
+- id: draft
+  translation: "草稿"
+

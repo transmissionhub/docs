@@ -1,0 +1,15 @@
+
+# toml-docs-start lang-main
+[zh]
+    languageName = "中文"
+    contentDir = "content/zh"
+    weight = 1
+# toml-docs-end lang-main
+# toml-docs-start lang-param
+    [zh.params.head]
+        tagline = "A Hugo Theme"
+        moreTitle = "更多"
+    [zh.params.footer]
+        license = "Created by Jonathan"
+        socialTitle = "加入社区"
+        socialCaption = "加入社区, 积极讨论, 共同创造友好的技术氛围"
