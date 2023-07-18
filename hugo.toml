@@ -1,7 +1,7 @@
 baseURL = 'https://transmissionhub.github.io/docs'
 languageCode = 'en-us'
 title = 'Transmission Hub'
-theme = m10c
+theme = "m10c"
 
 [params]
   author = "Jonathan"
