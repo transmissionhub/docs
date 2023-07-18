@@ -3,4 +3,4 @@
 	url = https://github.com/vaga/hugo-theme-m10c.git
 [submodule "themes/hinode"]
 	path = themes/hinode
-	url = https://github.com/gethinode/template
+	url = git@github.com:gethinode/hinode.git
