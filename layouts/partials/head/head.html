@@ -1,6 +1,8 @@
 {{ define "head" }}
     {{ $desc := .Page.Description | default (.Page.Content | safeHTML | truncate 150) -}}
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: https://xxx.com; media-src * blob: 'self' http://* 'unsafe-inline' 'unsafe-eval'; style-src * 'self' 'unsafe-inline'; img-src * 'self' data: content:; connect-src * blob:;">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ hugo.Generator}}
     {{ partial "head/stylesheet.html" -}}
