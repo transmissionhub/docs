@@ -22,11 +22,12 @@
 
 # toml-docs-start home
 [home]
-    sections = ["blog"]
+    sections = ["blog", "projects"]
+    featurePhoto = "/img/introduction.jpg"
+    qrcode = "/img/qrcode.png"
     fullCover = false
-    centerHeadline = false
+    centerHeadline = true
     style = ""
-    moreTitle = "更多"
 # toml-docs-end home
 
 # toml-docs-start navigation
@@ -35,7 +36,7 @@
     logo = "/img/logo.png"
     color = "body"
     fixed = true
-    offset = "0em"
+    offset = "3.6em"
     search = true
     breadcrumb = true
     toc = true
@@ -101,8 +102,8 @@
 
 # toml-docs-start theme-colors
 [style]
-    primary = "#d43900"
-    secondary = "#6c757d"
+    primary = "#3bc6d3"
+    secondary = "#333"
     success = "#198754"
     info = "#0dcaf0"
     warning = "#ffc107"
@@ -129,10 +130,7 @@
     github = "https://github.com/gethinode/hinode"
     section = "blog"
     [author]
-        name = "Mark Dumay"
-        # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
-        github = "https://github.com/markdumay"
+        name = "Jonathan"
     [logo]
         url = "img/logo512x512.png"
         width = 512

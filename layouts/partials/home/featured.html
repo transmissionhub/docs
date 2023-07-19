@@ -1,17 +1,27 @@
-<div class="container-fluid flex-fill bg-primary bg-opacity-{{ .Site.Params.style.themeOpacity | default "25" | safeHTML }}">
-    <div class="container-xxl p-4">
-        <div class="row row-cols-1 row-cols-sm-3 align-items-center pt-5 pb-5 h-100">
-            <div class="col col-md-2 d-none d-md-block"></div>
-            <div class="col col-sm-6 col-md-4 text-center text-sm-start">
+<div class="container-fluid flex-fill bg-primary bg-opacity-{{ .Site.Params.style.themeOpacity | default " 25" |
+    safeHTML }}">
+    <div class="container-xl p-4">
+        <div class="row row-cols-1 row-cols-sm-3 align-items-center pt-5 pb-5 h-80">
+            <div class="col col-sm-8 col-md-8 text-center text-sm-start">
                 <p class="display-4">{{ .Title }}</p>
                 <p>{{ .Content }}</p>
                 {{ if .Site.Params.feature.link }}
-                    <p><a class="btn btn-primary" href="{{ .Site.Params.feature.link | safeURL }}" role="button">{{ .Site.Params.feature.caption | default (T "about") }}</a></p>
+                <p><a class="btn btn-primary" href="{{ .Site.Params.feature.link | safeURL }}" role="button">{{
+                        .Site.Params.feature.caption | default (T "about") }}</a></p>
                 {{ end }}
             </div>
-            <div class="col col-sm-6 col-md-4">
+            <div class="col col-sm-2 col-md-2">
+                {{ if .Site.Params.home.qrcode }}
+                {{- partial "assets/image.html" (dict "url" .Site.Params.home.qrcode "ratio" "1x1" "outerClass"
+                "img-wrap" "innerClass" "rounded" "title" .Site.Title) -}}
+                {{ end }}
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-12 align-items-center pt-5 pb-5 h-100">
+            <div class="col col-sm-12 col-md-12">
                 {{ if .Site.Params.home.featurePhoto }}
-                    {{- partial "assets/image.html" (dict "url" .Site.Params.home.featurePhoto "ratio" "4x3" "outerClass" "img-wrap" "innerClass" "rounded" "title" .Site.Title) -}}
+                {{- partial "assets/image.html" (dict "url" .Site.Params.home.featurePhoto "ratio" "21x9" "outerClass"
+                "img-wrap" "innerClass" "rounded" "title" .Site.Title) -}}
                 {{ end }}
             </div>
             <div class="col col-md-2 d-none d-md-block"></div>
