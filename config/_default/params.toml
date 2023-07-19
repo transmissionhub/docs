@@ -22,8 +22,8 @@
 
 # toml-docs-start home
 [home]
-    sections = ["blog", "projects"]
-    featurePhoto = "/img/introduction.jpg"
+    sections = ["blog"]
+    featurePhoto = "/img/introduction.png"
     qrcode = "/img/qrcode.png"
     fullCover = false
     centerHeadline = true
@@ -36,7 +36,7 @@
     logo = "/img/logo.png"
     color = "body"
     fixed = true
-    offset = "3.6em"
+    offset = "8em"
     search = true
     breadcrumb = true
     toc = true

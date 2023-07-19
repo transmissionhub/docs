@@ -1,7 +1,7 @@
 # toml-docs-start main
 title = "Transmission Hub"
 copyright = "Copyright © 2023 Jonathan"
-paginate = 9
+paginate = 20
 enableGitInfo = true
 # toml-docs-end main
 
